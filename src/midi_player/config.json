@@ -1,0 +1,12 @@
+{   
+    "user": "ayden",
+    "scale": "C",
+    "sharp": false,
+    "minor": false,
+    "max_hp": 6,
+    "tempo": 40,
+    "duration": 0,
+    "full_screen_res": [1280, 720],
+    "full_screen": false,
+    "windowed_res": [1600, 900]
+}

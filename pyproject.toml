@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "midi-player"
+version = "0.1.0"
+description = "Takes midi files and plays them on a piano sheet"
+authors = ["Ayden Clay"]
+license = "The Unlicense"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame-ce = "^2.5.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

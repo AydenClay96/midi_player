@@ -1,0 +1,539 @@
+[
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "importPath": "pygame.event",
+        "description": "pygame.event",
+        "isExtraImport": true,
+        "detail": "pygame.event",
+        "documentation": {}
+    },
+    {
+        "label": "EventType",
+        "importPath": "pygame.event",
+        "description": "pygame.event",
+        "isExtraImport": true,
+        "detail": "pygame.event",
+        "documentation": {}
+    },
+    {
+        "label": "Surface",
+        "importPath": "pygame.surface",
+        "description": "pygame.surface",
+        "isExtraImport": true,
+        "detail": "pygame.surface",
+        "documentation": {}
+    },
+    {
+        "label": "Surface",
+        "importPath": "pygame.surface",
+        "description": "pygame.surface",
+        "isExtraImport": true,
+        "detail": "pygame.surface",
+        "documentation": {}
+    },
+    {
+        "label": "Surface",
+        "importPath": "pygame.surface",
+        "description": "pygame.surface",
+        "isExtraImport": true,
+        "detail": "pygame.surface",
+        "documentation": {}
+    },
+    {
+        "label": "Surface",
+        "importPath": "pygame.surface",
+        "description": "pygame.surface",
+        "isExtraImport": true,
+        "detail": "pygame.surface",
+        "documentation": {}
+    },
+    {
+        "label": "Font",
+        "importPath": "pygame.font",
+        "description": "pygame.font",
+        "isExtraImport": true,
+        "detail": "pygame.font",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "settings",
+        "description": "settings",
+        "isExtraImport": true,
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "settings",
+        "description": "settings",
+        "isExtraImport": true,
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "settings",
+        "description": "settings",
+        "isExtraImport": true,
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "settings",
+        "description": "settings",
+        "isExtraImport": true,
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "EntityType",
+        "importPath": "common.types",
+        "description": "common.types",
+        "isExtraImport": true,
+        "detail": "common.types",
+        "documentation": {}
+    },
+    {
+        "label": "EntityType",
+        "importPath": "common.types",
+        "description": "common.types",
+        "isExtraImport": true,
+        "detail": "common.types",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "isExtraImport": true,
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "isExtraImport": true,
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "isExtraImport": true,
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "isExtraImport": true,
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "common.utils",
+        "description": "common.utils",
+        "isExtraImport": true,
+        "detail": "common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "TextEntity",
+        "importPath": "entities.text_entity",
+        "description": "entities.text_entity",
+        "isExtraImport": true,
+        "detail": "entities.text_entity",
+        "documentation": {}
+    },
+    {
+        "label": "TextEntity",
+        "importPath": "entities.text_entity",
+        "description": "entities.text_entity",
+        "isExtraImport": true,
+        "detail": "entities.text_entity",
+        "documentation": {}
+    },
+    {
+        "label": "GameEvent",
+        "importPath": "common.event",
+        "description": "common.event",
+        "isExtraImport": true,
+        "detail": "common.event",
+        "documentation": {}
+    },
+    {
+        "label": "GameEvent",
+        "importPath": "common.event",
+        "description": "common.event",
+        "isExtraImport": true,
+        "detail": "common.event",
+        "documentation": {}
+    },
+    {
+        "label": "EventType",
+        "importPath": "common.event",
+        "description": "common.event",
+        "isExtraImport": true,
+        "detail": "common.event",
+        "documentation": {}
+    },
+    {
+        "label": "GameEvent",
+        "importPath": "common.event",
+        "description": "common.event",
+        "isExtraImport": true,
+        "detail": "common.event",
+        "documentation": {}
+    },
+    {
+        "label": "EventType",
+        "importPath": "common.event",
+        "description": "common.event",
+        "isExtraImport": true,
+        "detail": "common.event",
+        "documentation": {}
+    },
+    {
+        "label": "GameEvent",
+        "importPath": "common.event",
+        "description": "common.event",
+        "isExtraImport": true,
+        "detail": "common.event",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEntity",
+        "importPath": "entities.base_entity",
+        "description": "entities.base_entity",
+        "isExtraImport": true,
+        "detail": "entities.base_entity",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEntity",
+        "importPath": "entities.base_entity",
+        "description": "entities.base_entity",
+        "isExtraImport": true,
+        "detail": "entities.base_entity",
+        "documentation": {}
+    },
+    {
+        "label": "BaseScene",
+        "importPath": "scenes.base_scene",
+        "description": "scenes.base_scene",
+        "isExtraImport": true,
+        "detail": "scenes.base_scene",
+        "documentation": {}
+    },
+    {
+        "label": "ButtonEntity",
+        "importPath": "entities.button_entity",
+        "description": "entities.button_entity",
+        "isExtraImport": true,
+        "detail": "entities.button_entity",
+        "documentation": {}
+    },
+    {
+        "label": "Menu",
+        "importPath": "scenes.menu",
+        "description": "scenes.menu",
+        "isExtraImport": true,
+        "detail": "scenes.menu",
+        "documentation": {}
+    },
+    {
+        "label": "SceneManager",
+        "importPath": "scenes.scene_manager",
+        "description": "scenes.scene_manager",
+        "isExtraImport": true,
+        "detail": "scenes.scene_manager",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "EventType",
+        "kind": 6,
+        "importPath": "src.midi_player.common.event",
+        "description": "src.midi_player.common.event",
+        "peekOfCode": "class EventType(enum.Enum):\n    CHANGE_SCENE = pygame.event.custom_type()\nclass GameEvent:\n    \"\"\"\n    GameEvent class provides methods associated with both Pygame and Custom events.\n    \"\"\"\n    def __init__(self, init_arg: Union[Event, EventType, int], **kwargs):\n        if isinstance(init_arg, PygameEventType):\n            self.event = init_arg\n        elif isinstance(init_arg, EventType):",
+        "detail": "src.midi_player.common.event",
+        "documentation": {}
+    },
+    {
+        "label": "GameEvent",
+        "kind": 6,
+        "importPath": "src.midi_player.common.event",
+        "description": "src.midi_player.common.event",
+        "peekOfCode": "class GameEvent:\n    \"\"\"\n    GameEvent class provides methods associated with both Pygame and Custom events.\n    \"\"\"\n    def __init__(self, init_arg: Union[Event, EventType, int], **kwargs):\n        if isinstance(init_arg, PygameEventType):\n            self.event = init_arg\n        elif isinstance(init_arg, EventType):\n            self.event = Event(init_arg.value, **kwargs)\n        elif isinstance(init_arg, int):",
+        "detail": "src.midi_player.common.event",
+        "documentation": {}
+    },
+    {
+        "label": "EntityType",
+        "kind": 6,
+        "importPath": "src.midi_player.common.types",
+        "description": "src.midi_player.common.types",
+        "peekOfCode": "class EntityType(enum.Enum):\n    EMPTY = 0\n    TEXT = 1",
+        "detail": "src.midi_player.common.types",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "src.midi_player.common.utils",
+        "description": "src.midi_player.common.utils",
+        "peekOfCode": "class Config:\n    \"\"\"Config class that contains functions related to the settings.\"\"\"\n    def __init__(self) -> None:\n        self.data = self.load()\n    def load(self) -> Dict:\n        \"\"\"Loads the config file.\"\"\"\n        with open(Settings.config, \"r\") as f:\n            data = json.load(f)\n        return data\n    def save(self) -> None:",
+        "detail": "src.midi_player.common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "kind": 6,
+        "importPath": "src.midi_player.common.utils",
+        "description": "src.midi_player.common.utils",
+        "peekOfCode": "class Resources:\n    @staticmethod\n    def get_font(font_size: int) -> Font:\n        \"\"\"Loads the font.\"\"\"\n        return Font(Settings.font, font_size)\n    @staticmethod\n    def scale_image(image: Surface, scale: Optional[Union[float, Tuple[int, int]]] = None) -> Surface:\n        \"\"\"Scales an image or just returns it directly.\"\"\"\n        if scale is None or scale == 1.0:\n            return image",
+        "detail": "src.midi_player.common.utils",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEntity",
+        "kind": 6,
+        "importPath": "src.midi_player.entities.base_entity",
+        "description": "src.midi_player.entities.base_entity",
+        "peekOfCode": "class BaseEntity(pygame.sprite.Sprite):\n    \"\"\"\n        Base class for all game entities.\n    \"\"\"\n    gen_id = itertools.count()\n    def __init__(self,\n                 entity_type: EntityType,\n                 position: Tuple[int, int],\n                 sprite_path: Optional[Path] = None,\n                 scale: Optional[Union[float, Tuple[int, int]]] = None,",
+        "detail": "src.midi_player.entities.base_entity",
+        "documentation": {}
+    },
+    {
+        "label": "ButtonEntity",
+        "kind": 6,
+        "importPath": "src.midi_player.entities.button_entity",
+        "description": "src.midi_player.entities.button_entity",
+        "peekOfCode": "class ButtonEntity(TextEntity):\n    def __init__(self, event: GameEvent, *args, **kwargs) -> None:\n        super.__init__(self, *args, **kwargs)\n        self.event = event\n        self.selected = False\n    def update(self) -> None:\n        if self.selected:\n            self.event.post()\n    def select(self) -> None:\n        self.selected = not self.selected",
+        "detail": "src.midi_player.entities.button_entity",
+        "documentation": {}
+    },
+    {
+        "label": "TextEntity",
+        "kind": 6,
+        "importPath": "src.midi_player.entities.text_entity",
+        "description": "src.midi_player.entities.text_entity",
+        "peekOfCode": "class TextEntity(BaseEntity):\n    \"\"\"Basic Text entity.\"\"\"\n    def __init__(self,\n                 text: str,\n                 size: int,\n                 color: str,\n                 *args,\n                 **kwargs) -> None:\n        super().__init__(entity_type=EntityType.TEXT, *args, **kwargs)\n        self.text = text",
+        "detail": "src.midi_player.entities.text_entity",
+        "documentation": {}
+    },
+    {
+        "label": "BaseScene",
+        "kind": 6,
+        "importPath": "src.midi_player.scenes.base_scene",
+        "description": "src.midi_player.scenes.base_scene",
+        "peekOfCode": "class BaseScene:\n    def __init__(self, screen: Surface) -> None:\n        self.screen = screen\n    def tick(self, events: Sequence[GameEvent]) -> bool:\n        \"\"\"subclass should overrise.\"\"\"",
+        "detail": "src.midi_player.scenes.base_scene",
+        "documentation": {}
+    },
+    {
+        "label": "Menu",
+        "kind": 6,
+        "importPath": "src.midi_player.scenes.menu",
+        "description": "src.midi_player.scenes.menu",
+        "peekOfCode": "class Menu(BaseScene):\n    \"\"\"\n    Menu scene is a subclass of the BaseScene\n    \"\"\"\n    def __init__(self, screen: Surface, *args, **kwargs) -> None:\n        super().__init__(screen, *args, **kwargs)\n        self.ss = screen.get_size()\n        self.title_size = int((self.ss[0] + self.ss[1])/20)\n        self.x_tile = int(self.ss[0]/36)\n        self.y_tile = int(self.ss[1]/36)",
+        "detail": "src.midi_player.scenes.menu",
+        "documentation": {}
+    },
+    {
+        "label": "SceneManager",
+        "kind": 6,
+        "importPath": "src.midi_player.scenes.scene_manager",
+        "description": "src.midi_player.scenes.scene_manager",
+        "peekOfCode": "class SceneManager:\n    def __init__(self, screen: Surface):\n        self.screen = screen\n        self.scene = None\n        self.scenes = {\n            Menu.__name__: Menu(self.screen)\n        }\n        self.active_scene = Menu.__name__\n    def tick(self) -> bool:\n        if pygame.event.peek(pygame.QUIT):",
+        "detail": "src.midi_player.scenes.scene_manager",
+        "documentation": {}
+    },
+    {
+        "label": "GameManager",
+        "kind": 6,
+        "importPath": "src.midi_player.main",
+        "description": "src.midi_player.main",
+        "peekOfCode": "class GameManager:\n    def __init__(self) -> None:\n        pygame.init()\n        self.user_config = Config().load()\n        self.clock = pygame.time.Clock()\n        self.initialize_screen()\n        self.scene_manager = SceneManager(self.screen)\n    def initialize_screen(self) -> None:\n        \"\"\"\n        Initializes the screen based on what is currently in the user config.",
+        "detail": "src.midi_player.main",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.midi_player.settings",
+        "description": "src.midi_player.settings",
+        "peekOfCode": "class Settings:\n    \"\"\"\n    Class containing the overall game settings for things the user can not change.\n    \"\"\"\n    # Game Parameters\n    name: str = \"MidiPlayer\"\n    fps: int = 60\n    config: Path = Path(\"src/midi_player/config.json\")\n    assets: Path = Path(\"src/midi_player/assets\")\n    # Appearance",
+        "detail": "src.midi_player.settings",
+        "documentation": {}
+    }
+]
