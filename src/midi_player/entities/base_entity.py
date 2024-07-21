@@ -5,6 +5,7 @@ from common.types import EntityType
 from common.utils import Resources
 from pathlib import Path
 
+
 class BaseEntity(pygame.sprite.Sprite):
     """
         Base class for all game entities.
@@ -17,7 +18,7 @@ class BaseEntity(pygame.sprite.Sprite):
                  sprite_path: Optional[Path] = None,
                  scale: Optional[Union[float, Tuple[int, int]]] = None,
                  life_span: Optional[int] = None,
-    ) -> None:
+                 ) -> None:
         self.entity_type = entity_type
         self.position = position
         if sprite_path:
