@@ -5,13 +5,16 @@ from typing import Optional, Sequence
 
 
 class ButtonEntity(TextEntity):
-    def __init__(self,
-                 event: GameEvent,
-                 text: str,
-                 size: int,
-                 color: str,
-                 hover_color: Optional[str] = None,
-                 *args, **kwargs) -> None:
+    def __init__(
+        self,
+        event: GameEvent,
+        text: str,
+        size: int,
+        color: str,
+        hover_color: Optional[str] = None,
+        *args,
+        **kwargs
+    ) -> None:
         self.text = text
         self.default_color = color
         self.hover_color = color if hover_color is None else hover_color
@@ -24,6 +27,10 @@ class ButtonEntity(TextEntity):
     def update(self, events: Sequence[GameEvent]) -> None:
         self.check_hover()
         self.update_color()
+        for e in events:
+            if e.is_type(pygame.MOUSEBUTTONDOWN):
+                if self.selected:
+                    self.action()
         super().update(events)
 
     def check_hover(self) -> None:

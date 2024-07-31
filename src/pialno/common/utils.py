@@ -5,8 +5,10 @@ import json
 from typing import Dict, Optional, Union, Tuple
 from settings import Settings
 
+
 class Config:
     """Config class that contains functions related to the settings."""
+
     def __init__(self) -> None:
         self.data = self.load()
 
@@ -21,14 +23,26 @@ class Config:
         with open(Settings.config, "w", encoding="utf-8") as f:
             json.dump(self.data, f, ensure_ascii=False)
 
+
 class Resources:
     @staticmethod
-    def get_font(font_size: int) -> Font:
+    def get_font(font_size: int, font_type: Optional[str] = None) -> Font:
         """Loads the font."""
-        return Font(Settings.font, font_size)
+        if font_type:
+            if font_type == "lfont":
+                font = Settings.lfont
+            elif font_type == "bfont":
+                font = Settings.bfont
+            else:
+                font = Settings.font
+        else:
+            font = Settings.font
+        return Font(font, font_size)
 
     @staticmethod
-    def scale_image(image: Surface, scale: Optional[Union[float, Tuple[int, int]]] = None) -> Surface:
+    def scale_image(
+        image: Surface, scale: Optional[Union[float, Tuple[int, int]]] = None
+    ) -> Surface:
         """Scales an image or just returns it directly."""
         if scale is None or scale == 1.0:
             return image

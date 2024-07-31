@@ -9,12 +9,14 @@ class Settings:
     """
 
     # Game Parameters
-    name: str = "MidiPlayer"
+    name: str = "PI-AL-NO"
     fps: int = 60
-    config: Path = Path("src/midi_player/config.json")
-    assets: Path = Path("src/midi_player/assets")
+    config: Path = Path("src/pialno/config.json")
+    assets: Path = Path("src/pialno/assets")
 
     # Appearance
     font: Path = assets / "font.ttf"
+    bfont: Path = assets / "bfont.ttf"
+    lfont: Path = assets / "lfont.ttf"
     default_text_color: str = "#ff962c"
     hovered_text_color: str = "#331f49"

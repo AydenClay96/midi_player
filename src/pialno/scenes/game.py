@@ -11,76 +11,32 @@ from common.utils import Resources
 from settings import Settings
 
 
-class Menu(BaseScene):
+class Game(BaseScene):
     """
-    Menu scene is a subclass of the BaseScene
+    Game scene is a subclass of the BaseScene
     """
 
     def __init__(self, screen: Surface, *args, **kwargs) -> None:
         super().__init__(screen, *args, **kwargs)
 
         self.ss = screen.get_size()
-        self.title_size = int((self.ss[0] + self.ss[1])/18)
-        self.x_tile = int(self.ss[0]/36)
-        self.y_tile = int(self.ss[1]/36)
+        self.title_size = int((self.ss[0] + self.ss[1]) / 18)
+        self.x_tile = int(self.ss[0] / 36)
+        self.y_tile = int(self.ss[1] / 36)
 
-        self.button_size = int(self.title_size * 0.90)
+        self.button_size = int(self.title_size * 0.80)
         bx = int(self.ss[0] / 2)
-        by = int(10 * self.y_tile)
+        by = int(14 * self.y_tile)
         bo = int(self.ss[1] / 4)
 
-        title = TextEntity(
-            entity_type=EntityType.TEXT,
-            text="PIANOHERO", size=self.title_size,
-            color=Settings.default_text_color,
-            position=(18 * self.x_tile, 4 * self.y_tile))
-
-        change_to_game = GameEvent(
-            init_arg=EventType.CHANGE_SCENE,
-            dict={"scene": "game"},
-        )
-        play_button = ButtonEntity(
-            entity_type=EntityType.BUTTON,
-            event=change_to_game,
-            text="PLAY",
-            size=self.button_size,
-            color=Settings.default_text_color,
-            hover_color=Settings.hovered_text_color,
-            position=(bx, by)
-        )
-
-        change_to_options_menu = GameEvent(
-            init_arg=EventType.CHANGE_SCENE,
-            dict={"scene": "OPTIONS"},
-        )
-        options_button = ButtonEntity(
-            entity_type=EntityType.BUTTON,
-            event=change_to_options_menu,
-            text="OPTIONS",
-            size=self.button_size,
-            color=Settings.default_text_color,
-            hover_color=Settings.hovered_text_color,
-            position=(bx, by + bo))
-
-        quit_button = ButtonEntity(
-            entity_type=EntityType.BUTTON,
-            event=GameEvent(init_arg=pygame.QUIT),
-            text="QUIT",
-            size=self.button_size,
-            color=Settings.default_text_color,
-            hover_color=Settings.hovered_text_color,
-            position=(bx, by + 2 * bo)
-        )
-
-        self.selectable = pygame.sprite.Group()
-        self.selectable.add(play_button, options_button, quit_button)
-        self.selected = None
+        
 
         self.entities = pygame.sprite.Group()
         self.entities.add(title, self.selectable)
 
         self.background: Optional[Surface] = Resources.get_image(
-            "menu.jpg", screen.get_size())
+            "menu.jpg", screen.get_size()
+        )
         self.events: Optional[Sequence[GameEvent]] = None
 
     def tick(self, events: Sequence[GameEvent]) -> bool:

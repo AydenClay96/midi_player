@@ -8,17 +8,19 @@ from pathlib import Path
 
 class BaseEntity(pygame.sprite.Sprite):
     """
-        Base class for all game entities.
+    Base class for all game entities.
     """
+
     gen_id = itertools.count()
 
-    def __init__(self,
-                 entity_type: EntityType,
-                 position: Tuple[int, int],
-                 sprite_path: Optional[Path] = None,
-                 scale: Optional[Union[float, Tuple[int, int]]] = None,
-                 life_span: Optional[int] = None,
-                 ) -> None:
+    def __init__(
+        self,
+        entity_type: EntityType,
+        position: Tuple[int, int],
+        sprite_path: Optional[Path] = None,
+        scale: Optional[Union[float, Tuple[int, int]]] = None,
+        life_span: Optional[int] = None,
+    ) -> None:
         self.entity_type = entity_type
         self.position = position
         if sprite_path:

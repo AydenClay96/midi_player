@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "midi-player"
+name = "pialno"
 version = "0.1.0"
 description = "Takes midi files and plays them on a piano sheet"
 authors = ["Ayden Clay"]

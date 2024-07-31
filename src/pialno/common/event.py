@@ -5,13 +5,17 @@ import pygame
 from pygame.event import Event
 from pygame.event import EventType as PygameEventType
 
+
 class EventType(enum.Enum):
     CHANGE_SCENE = pygame.event.custom_type()
+    OPTION_CHANGE = pygame.event.custom_type()
+
 
 class GameEvent:
     """
     GameEvent class provides methods associated with both Pygame and Custom events.
     """
+
     def __init__(self, init_arg: Union[Event, EventType, int], **kwargs):
         if isinstance(init_arg, PygameEventType):
             self.event = init_arg
