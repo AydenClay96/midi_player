@@ -35,10 +35,12 @@ class SelectorEntity(BaseEntity):
             size=self.size,
             color=self.color,
             entity_type=EntityType.TEXT,
-            position=self.position
+            position=self.position,
         )
 
-        change_selection = GameEvent(EventType.OPTION_CHANGE, heading=self.heading, selection=self.selection)
+        change_selection = GameEvent(
+            EventType.OPTION_CHANGE, heading=self.heading, selection=self.selection
+        )
 
         self.left_chevron = ButtonEntity(
             entity_type=EntityType.BUTTON,
@@ -75,11 +77,18 @@ class SelectorEntity(BaseEntity):
         pass
 
     def render(self) -> None:
-        self.rect = self.text.rect.unionall((self.left_chevron.rect, self.right_chevron.rect))
+        self.rect = self.text.rect.unionall(
+            (self.left_chevron.rect, self.right_chevron.rect)
+        )
         self.image = Surface(self.rect.size)
         self.image.blit(self.text.image, self.rect.center)
-        self.image.blit(self.left_chevron.image, (self.left_chevron.position[0], self.rect.centery))
-        self.image.blit(self.right_chevron.image, (self.right_chevron.position[0], self.rect.centery))
+        self.image.blit(
+            self.left_chevron.image, (self.left_chevron.position[0], self.rect.centery)
+        )
+        self.image.blit(
+            self.right_chevron.image,
+            (self.right_chevron.position[0], self.rect.centery),
+        )
         print(self.left_chevron.position)
         print(self.right_chevron.position)
         print(self.text.position)

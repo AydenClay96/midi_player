@@ -6,3 +6,6 @@ class EntityType(enum.Enum):
     TEXT = 1
     BUTTON = 2
     SELECTOR = 3
+    NOTE = 4
+    BACKGROUND = 5
+    KEYBOARD = 6

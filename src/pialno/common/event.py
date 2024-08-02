@@ -9,6 +9,7 @@ from pygame.event import EventType as PygameEventType
 class EventType(enum.Enum):
     CHANGE_SCENE = pygame.event.custom_type()
     OPTION_CHANGE = pygame.event.custom_type()
+    MIDI_INPUT = pygame.event.custom_type()
 
 
 class GameEvent:

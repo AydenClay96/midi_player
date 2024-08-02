@@ -19,7 +19,7 @@ class Config:
         return data
 
     def save(self) -> None:
-        """Loads the config file."""
+        """Saves the config file."""
         with open(Settings.config, "w", encoding="utf-8") as f:
             json.dump(self.data, f, ensure_ascii=False)
 

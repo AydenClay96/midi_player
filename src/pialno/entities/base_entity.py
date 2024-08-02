@@ -27,4 +27,5 @@ class BaseEntity(pygame.sprite.Sprite):
             self.sprite = Resources.get_image(sprite_path, scale)
         if life_span:
             self.life_span = life_span
+
         pygame.sprite.Sprite.__init__(self)
